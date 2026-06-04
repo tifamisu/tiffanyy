@@ -1613,7 +1613,7 @@ export default function Home() {
 
           {/* Contact Links */}
           <div style={{ display:"flex",gap:"10px",marginTop:"20px",flexWrap:"wrap" as const }}>
-            <motion.a whileHover={{ scale:1.08,y:-2 }} whileTap={{ scale:0.95 }} href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ fontFamily:"'Press Start 2P',monospace",fontSize:"7px",padding:"8px 12px",background:"#111",color:"white",border:"2px solid #111",boxShadow:"2px 2px 0 #111",textDecoration:"none",cursor:"none",letterSpacing:"0.5px",display:"flex",alignItems:"center",gap:6 }}>
+            <motion.a whileHover={{ scale:1.08,y:-2 }} whileTap={{ scale:0.95 }} href="https://drive.google.com/file/d/1vITK6FYd9sgjFQbRwKmbbIa1Tky-Sq-3/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ fontFamily:"'Press Start 2P',monospace",fontSize:"7px",padding:"8px 12px",background:"#111",color:"white",border:"2px solid #111",boxShadow:"2px 2px 0 #111",textDecoration:"none",cursor:"none",letterSpacing:"0.5px",display:"flex",alignItems:"center",gap:6 }}>
               <span style={{ fontSize:"10px" }}>📄</span> RESUME
             </motion.a>
             <motion.a whileHover={{ scale:1.08,y:-2 }} whileTap={{ scale:0.95 }} href="mailto:tiffanyyin2@gmail.com" style={{ fontFamily:"'Press Start 2P',monospace",fontSize:"7px",padding:"8px 12px",background:accent,color:"white",border:"2px solid #111",boxShadow:"2px 2px 0 #111",textDecoration:"none",cursor:"none",letterSpacing:"0.5px",display:"flex",alignItems:"center",gap:6,transition:"background 0.3s" }}>
