@@ -1058,7 +1058,7 @@ function ArtCard({ id, activeSkill, accent }: { id: string; activeSkill: SkillId
   const [artHover, setArtHover] = useState(false);
   const [galleryOpen, setGalleryOpen] = useState(false);
   const [current, setCurrent] = useState(0);
-  const images = ["/art-1.png","/art-2.png","/art-3.png","/art-4.png","/art-5.png","/art-6.png"];
+  const images = ["/art-1.png","/art-2.png","/art-3.png","/art-4.png","/art-5.png","/art-6.png","/art-7.jpg"];
   const titles = ["butterfly dreams","crystal heart","space bunnies","character studies","pink portrait WIP","city girl"];
 
   if (id === "char-art") return (
@@ -1613,7 +1613,7 @@ export default function Home() {
 
           {/* Contact Links */}
           <div style={{ display:"flex",gap:"10px",marginTop:"20px",flexWrap:"wrap" as const }}>
-            <motion.a whileHover={{ scale:1.08,y:-2 }} whileTap={{ scale:0.95 }} href="https://drive.google.com/file/d/1vITK6FYd9sgjFQbRwKmbbIa1Tky-Sq-3/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ fontFamily:"'Press Start 2P',monospace",fontSize:"7px",padding:"8px 12px",background:"#111",color:"white",border:"2px solid #111",boxShadow:"2px 2px 0 #111",textDecoration:"none",cursor:"none",letterSpacing:"0.5px",display:"flex",alignItems:"center",gap:6 }}>
+            <motion.a whileHover={{ scale:1.08,y:-2 }} whileTap={{ scale:0.95 }} href="/resume.pdf" target="_blank" rel="noopener noreferrer" style={{ fontFamily:"'Press Start 2P',monospace",fontSize:"7px",padding:"8px 12px",background:"#111",color:"white",border:"2px solid #111",boxShadow:"2px 2px 0 #111",textDecoration:"none",cursor:"none",letterSpacing:"0.5px",display:"flex",alignItems:"center",gap:6 }}>
               <span style={{ fontSize:"10px" }}>📄</span> RESUME
             </motion.a>
             <motion.a whileHover={{ scale:1.08,y:-2 }} whileTap={{ scale:0.95 }} href="mailto:tiffanyyin2@gmail.com" style={{ fontFamily:"'Press Start 2P',monospace",fontSize:"7px",padding:"8px 12px",background:accent,color:"white",border:"2px solid #111",boxShadow:"2px 2px 0 #111",textDecoration:"none",cursor:"none",letterSpacing:"0.5px",display:"flex",alignItems:"center",gap:6,transition:"background 0.3s" }}>
